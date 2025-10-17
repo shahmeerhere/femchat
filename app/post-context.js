@@ -5,7 +5,7 @@ export const PostsContext = createContext();
 
 export function PostsProvider({ children }) {
   const [posts, setPosts] = useState([
-    { id: 1, image: "/p1.jpg", caption: "Chillin’ vibes #relax" },
+    { id: 1, image: "/p1.jpg", caption: "Chillin vibes #relax" },
     { id: 2, image: "/p2.jpg", caption: "Coffee & code ☕ #coding" },
   ]);
 
